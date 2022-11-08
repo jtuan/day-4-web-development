@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 3 Form</title>
+</head>
+<body>
+  <h1>Interests Survey Form</h1>
+  <form class="" action="index.html" method="post">
+  <div>
+  <label for="name">Enter your name:</label>
+  <input type="text" id="name" name="name"/>
+    </div><br>
+  <div>
+  <label for="department">Enter your department:</label>
+  <input type="text" id="department" name="department"/>
+    </div><br>
+  <div>
+  <label for="information">Tell us a little about yourself:</label>
+    <textarea id="information" name="information" rows="5" cols="30">
+    </textarea>
+    </div><br>
+ <div>
+ <label for="excerise">Do you excerise at home?</label>
+ <input type="radio" id="yes" name="excerise" value="Yes"/>
+ <label for="excerise1">Yes</label>
+ <input type="radio" id="no" name="excerise" value="No"/>
+ <label for="excerise1">No</label>
+    </div><br>
+ <div>
+ <label for="read">How do you like to read about your favorite topics?</label><br><br>
+ <input type="checkbox" id="read1" name="read1" value="Books"/>
+ <label for="excerise1">Books</label>
+ <input type="checkbox" id="read2" name="read2" value="Online resources"/>
+ <label for="excerise1">Online resources</label>
+ <input type="checkbox" id="read3" name="read3" value="Phone apps"/>
+ <label for="excerise1">Phone apps</label>
+ <input type="checkbox" id="read4" name="read4" value="Magazines"/>
+ <label for="excerise1">Magazines</label>
+    </div><br>
+  <div>
+  <label for="movie">What genre of movies do you like?</label>
+  <select name="genre">
+    <option value="genre1">comedy</option>
+    <option value="genre2">action</option>
+    <option value="genre3">horror</option>
+    </select>
+    </div><br>
+    <button type="submit" name="submit">Submit form</button>
+  </form>
+</body>
+</html>
